@@ -1,2 +1,10 @@
-<!--onekit/ui/refresh/refresh.wxml-->
-<text>onekit/ui/refresh/refresh.wxml</text>
+<view
+class="onekit-refresh {{Class}}"
+style="{{Style}} "
+disabled="{{disabled}}"
+aria-label=""
+aria-unfocusable="{{}}"
+forcedark ="true"
+>
+<slot></slot>
+</view>

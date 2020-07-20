@@ -5,9 +5,33 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    componentName: 'refresh',
+    isRefreshing: false,
+    refreshType: 'auto'
   },
-
+  onInit() {
+    this.$page.setTitleBar({
+      text: 'Refresh'
+    })
+  },
+  changeType() {
+    this.refreshType = this.refreshType === 'auto' ? 'pulldown' : 'auto'
+  },
+  refresh(e) {
+    const self = this
+    // 更新刷新状态（属性refreshing的值从false改为true会触发refresh组件的状态更新，反之亦然）
+    self.isRefreshing = e.refreshing
+    setTimeout(function () {
+      // 关闭刷新状态
+      self.isRefreshing = false
+      prompt.showToast({
+        message: '刷新完成'
+      })
+    }, 3000)
+  },
+  stopRefresh() {
+    this.isRefreshing = false
+  },
   /**
    * 生命周期函数--监听页面加载
    */
