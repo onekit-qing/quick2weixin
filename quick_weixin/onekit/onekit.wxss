@@ -132,6 +132,9 @@ page>.onekit-div{ /* page>div */
 .onekit-stack {
     width: 0px;
     min-height: 100%;
+    display: block;
+    position: relative;
+    width: -webkit-fill-available;
 }
 /*.onekit-swiper  */
 .onekit-swiper {

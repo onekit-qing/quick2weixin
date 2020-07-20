@@ -1,6 +1,7 @@
 {
 
   "pages": [
+    "component/stack/stack",
     "component/refresh/refresh",
     "component/canvas/canvas",
     "component/popup/popup",

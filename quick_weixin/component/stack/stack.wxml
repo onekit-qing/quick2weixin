@@ -1,16 +1,16 @@
-<div class="doc-page">
-	<div class="page-title-wrap">
-		<text class="page-title">{{componentName}}</text>
-	</div>
+<onekit-div Class="doc-page">
+	<onekit-div Class="page-title-wrap">
+		<onekit-text Class="page-title">{{componentName}}</onekit-text>
+	</onekit-div>
 
-	<stack class="stack">
+	<onekit-stack Class="stack">
 		<image class="image" src="pic2.webp"></image>
-		<text class="title">stack容器排列方式为层叠，每个子组件按照先后顺序依次堆叠，覆盖前面的组件</text>
-		<div class="wrap">
+		<onekit-text Class="title">onekit-stack容器排列方式为层叠，每个子组件按照先后顺序依次堆叠，覆盖前面的组件</onekit-text>
+		<onekit-div Class="wrap">
 			<image class="btn" src="demo.png"></image>
-		</div>
-		<div class="wrap">
+		</onekit-div>
+		<onekit-div Class="wrap">
 			<image class="btn" src="demo.png"></image>
-		</div>
-	</stack>
-</div>
+		</onekit-div>
+	</onekit-stack>
+</onekit-div>
