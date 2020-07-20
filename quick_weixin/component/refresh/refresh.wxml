@@ -1,0 +1,12 @@
+<onekit-div Class="doc-page">
+    <!-- 属性refreshing用于标识refresh组件的加载状态 -->
+    <refresh class="refresh" onrefresh="refresh" refreshing="{{isRefreshing}}" type="{{refreshType}}">
+      <onekit-div Class="page-title-wrap">
+          <text class="page-title ">{{componentName}}</text>
+      </onekit-div>
+      <onekit-div Class="item-container">
+        <input class="btn" type="button" value="停止刷新" onclick="stopRefresh"/>
+        <input class="btn" type="button" value="{{refreshType === 'auto' ? '开启下拉回弹效果' : '关闭下拉回弹效果'}}" onclick="changeType"/>
+      </onekit-div>
+    </refresh>
+  </onekit-div>

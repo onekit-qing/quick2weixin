@@ -1,0 +1,12 @@
+@import '/common/css/common.wxss';
+.refresh{
+  flex-direction: column;
+  flex: 1;
+}
+
+.item-container{
+  margin-bottom: 50px;
+  margin-right: 60px;
+  margin-left: 60px;
+  flex-direction: column;
+}

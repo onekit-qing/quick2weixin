@@ -8,4 +8,3 @@ style="{{Style}}"
     <view wx:if="{{item}}" style="pointer-events:none;top:-{{width}}px;position: relative;background-size:{{width}}px {{height}}px !important;display:inline-block;width:{{width*item}}px;height:{{height}}px;{{starForeground}}"></view>
   </view>
 </view>
-
