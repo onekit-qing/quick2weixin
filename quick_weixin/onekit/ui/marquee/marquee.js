@@ -1,9 +1,11 @@
 // components/marquee.js
 Component({
-  /**
-   * 组件的属性列表
-   */
+  options: {
+    styleIsolation: 'apply-shared'
+  },
   properties: {
+    Class:String,
+    Style:String,
     text: {
       type: String,
       value: ''

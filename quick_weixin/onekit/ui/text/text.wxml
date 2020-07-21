@@ -2,5 +2,5 @@
 class="onekit-text {{Class}}"
 style="{{Style}}"
 >
-<slot></slot>
+<slot/>
 </text>
