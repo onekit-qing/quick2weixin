@@ -1,12 +1,13 @@
 {
-
   "pages": [
     "component/stack/stack",
+    "component/popup/popup",
+    "component/progress/progress",
+    "component/span/span",
+    "component/marquee/marquee",
     "component/refresh/refresh",
     "component/canvas/canvas",
-    "component/popup/popup",
     "pages/select/select",
-    "component/progress/progress",
     "component/image/image",
     "component/list/list",
     "component/swiper/swiper",
