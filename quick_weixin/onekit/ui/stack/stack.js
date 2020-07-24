@@ -1,7 +1,6 @@
 // onekit/ui/stack/stack.js
 Component({
   options: {
-    styleIsolation: 'apply-shared'
   },
   properties: {
     Class:String,

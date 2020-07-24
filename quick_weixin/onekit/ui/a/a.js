@@ -1,7 +1,6 @@
 import router from "../../../onekit/api/system/router"
 Component({
   options: {
-    styleIsolation: 'apply-shared'
   },
   properties: {
     Style:String,

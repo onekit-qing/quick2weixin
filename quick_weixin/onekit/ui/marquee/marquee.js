@@ -1,7 +1,6 @@
 // components/marquee.js
 Component({
   options: {
-    styleIsolation: 'apply-shared'
   },
   properties: {
     Class:String,

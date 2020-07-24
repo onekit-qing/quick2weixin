@@ -1,7 +1,6 @@
 // onekit/ui/span/span.js
 Component({
   options: {
-    styleIsolation: 'apply-shared'
   },
   properties: {
     Class:String,
