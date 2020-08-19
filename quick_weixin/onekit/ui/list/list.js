@@ -205,8 +205,8 @@ Component({
     styleIsolation: 'apply-shared'
   },
   properties: {
-    Style:String,
-    Class:String,
+    onekitStyle:String,
+    onekitClass:String,
     scrollpage:{
       type:Boolean,
       value:false

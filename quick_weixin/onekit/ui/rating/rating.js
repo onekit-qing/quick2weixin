@@ -3,8 +3,8 @@ Component({
   options: {
   },
   properties: {
-    Style: String,
-    Class: String,
+    onekitStyle: String,
+    onekitClass: String,
     numstars: {
       type: Number,
       value: 5

@@ -1,6 +1,6 @@
 <image
-class="onekit-image {{Class}}"
-style="{{Style}}"
+class="onekit-image {{onekitClass}}"
+style="{{onekitStyle}}"
 src="{{src}}"
 bindload="image_load"
 binderror="image_error"

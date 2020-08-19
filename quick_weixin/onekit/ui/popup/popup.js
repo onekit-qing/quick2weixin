@@ -6,8 +6,8 @@ Component({
      * 组件的属性列表
      */
     properties: {
-      Class:String,
-      Style:String,
+      onekitClass:String,
+      onekitStyle:String,
       target:String,
 
     },

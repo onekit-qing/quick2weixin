@@ -2,8 +2,8 @@ Component({
   options: {
   },
   properties: {
-    Class:String,
-    Style:String
+    onekitClass:String,
+    onekitStyle:String
   },
   data:{
     show:false

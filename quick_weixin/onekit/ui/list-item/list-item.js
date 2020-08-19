@@ -112,8 +112,8 @@ Component({
       type:String,
       value:""
     },
-    Style:String,
-    Class:String
+    onekitStyle:String,
+    onekitClass:String
   },
 
   /**

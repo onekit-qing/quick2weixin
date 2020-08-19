@@ -3,8 +3,8 @@ Component({
   options: {
   },
   properties: {
-    Class:String,
-    Style:String,
+    onekitClass:String,
+    onekitStyle:String,
     text: {
       type: String,
       value: ''

@@ -1,5 +1,5 @@
 <view
-class="onekit-div {{Class}}"
+class="onekit-div {{onekitClass}}"
 style="{{Style}} "
 disabled="{{disabled}}"
 aria-label=""

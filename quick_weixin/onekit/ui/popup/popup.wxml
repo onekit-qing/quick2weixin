@@ -1,6 +1,6 @@
 <view
-class="onekit-popup {{Class}}"
-style="{{Style}}"
+class="onekit-popup {{onekitClass}}"
+style="{{onekitStyle}}"
 target="{{target}}"
 >
 <slot/>

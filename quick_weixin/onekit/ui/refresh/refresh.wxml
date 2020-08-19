@@ -1,5 +1,5 @@
 <view
-class="onekit-refresh {{Class}}"
+class="onekit-refresh {{onekitClass}}"
 style="{{Style}} "
 disabled="{{disabled}}"
 aria-label=""

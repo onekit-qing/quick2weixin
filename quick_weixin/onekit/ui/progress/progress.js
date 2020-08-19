@@ -6,8 +6,8 @@ Component({
   options: {
   },
   properties: {
-    Style:String,
-    Class:String,
+    onekitStyle:String,
+    onekitClass:String,
     percent:{
       type:Number,
     }
